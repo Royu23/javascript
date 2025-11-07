@@ -1,5 +1,8 @@
 var x;
 var sqrt=function(x){
+    if(x<2){
+        return x;
+    }
     let l=2;
     r=Math.floor(x/2);
     while(l<=r){
